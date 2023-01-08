@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42996BD2-7219-493F-83AF-8D40367C1B14}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LeetCode</RootNamespace>
+    <AssemblyName>LeetCode</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Easy\Build_Array_from_Permutation.cs" />
+    <Compile Include="Easy\Check_If_Two_String_Arrays_are_Equivalent.cs" />
+    <Compile Include="Easy\Count_Items_Matching_aRule.cs" />
+    <Compile Include="Easy\Count_Items_Matching_a_Rule.cs" />
+    <Compile Include="Easy\Decompress_Run-Length_Encoded_List.cs" />
+    <Compile Include="Easy\Delete_Greatest_Value_in_Each_Row.cs" />
+    <Compile Include="Easy\Final_Value_of_Variable_After_Performing_Operations.cs" />
+    <Compile Include="Easy\How_Many_Numbers_Are_Smaller_Than_the_Current_Number.cs" />
+    <Compile Include="Easy\Kids_With_the_Greatest_Number_of_Candies.cs" />
+    <Compile Include="Easy\Maximum_Number_of_Words_Found_in_Sentences.cs" />
+    <Compile Include="Easy\Minimum_Number_of_Moves_to_Seat_Everyone.cs" />
+    <Compile Include="Easy\Number_of_Arithmetic_Triplets.cs" />
+    <Compile Include="Easy\Number_of_Good_Pairs.cs" />
+    <Compile Include="Easy\Richest_Customer_Wealth.cs" />
+    <Compile Include="Easy\Running_Sum_of_1d_Array.cs" />
+    <Compile Include="Easy\Shuffle_String.cs" />
+    <Compile Include="Easy\Shuffle_the_Array.cs" />
+    <Compile Include="Easy\Sum_of_All_Odd_Length_Subarrays.cs" />
+    <Compile Include="Global_Classes\Binary_Search.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
