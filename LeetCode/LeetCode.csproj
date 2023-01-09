@@ -60,6 +60,7 @@
     <Compile Include="Easy\Shuffle_String.cs" />
     <Compile Include="Easy\Shuffle_the_Array.cs" />
     <Compile Include="Easy\Sum_of_All_Odd_Length_Subarrays.cs" />
+    <Compile Include="Easy\Truncate_Sentence.cs" />
     <Compile Include="Global_Classes\Binary_Search.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
