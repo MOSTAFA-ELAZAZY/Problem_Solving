@@ -46,6 +46,7 @@
     <Compile Include="Easy\Check_If_Two_String_Arrays_are_Equivalent.cs" />
     <Compile Include="Easy\Count_Items_Matching_aRule.cs" />
     <Compile Include="Easy\Count_Items_Matching_a_Rule.cs" />
+    <Compile Include="Easy\Count_Number_of_Pairs_With_Absolute_Difference_K.cs" />
     <Compile Include="Easy\Decompress_Run-Length_Encoded_List.cs" />
     <Compile Include="Easy\Delete_Greatest_Value_in_Each_Row.cs" />
     <Compile Include="Easy\Final_Value_of_Variable_After_Performing_Operations.cs" />
