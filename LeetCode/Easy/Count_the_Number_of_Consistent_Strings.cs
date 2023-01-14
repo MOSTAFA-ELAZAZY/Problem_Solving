@@ -18,6 +18,7 @@ namespace LeetCode.Easy
                 foreach (var c in words[i])
                 {
                     if (!allowed.Contains(c))
+
                     {
                         total++;
                         break;
