@@ -12,7 +12,6 @@ namespace LeetCode.Easy
         {
             int num = words.Length;
             int total = 0;
-
             for (int i = 0; i < words.Length; i++)
             {
                 foreach (var c in words[i])
