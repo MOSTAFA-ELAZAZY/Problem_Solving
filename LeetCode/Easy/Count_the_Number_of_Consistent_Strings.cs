@@ -9,6 +9,7 @@ namespace LeetCode.Easy
     class Count_the_Number_of_Consistent_Strings
     {
         public int CountConsistentStrings(string allowed, string[] words)
+
         {
             int num = words.Length;
             int total = 0;
