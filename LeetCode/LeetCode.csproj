@@ -53,6 +53,7 @@
     <Compile Include="Easy\How_Many_Numbers_Are_Smaller_Than_the_Current_Number.cs" />
     <Compile Include="Easy\Kids_With_the_Greatest_Number_of_Candies.cs" />
     <Compile Include="Easy\Maximum_Number_of_Words_Found_in_Sentences.cs" />
+    <Compile Include="Easy\Maximum_Product_Difference_Between_Two_Pairs.cs" />
     <Compile Include="Easy\Minimum_Number_of_Moves_to_Seat_Everyone.cs" />
     <Compile Include="Easy\Number_of_Arithmetic_Triplets.cs" />
     <Compile Include="Easy\Number_of_Good_Pairs.cs" />
